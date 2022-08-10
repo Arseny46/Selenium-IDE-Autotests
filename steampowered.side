@@ -292,18 +292,6 @@
       ],
       "value": ""
     }, {
-      "id": "1659ede6-10a6-47ad-9e0f-ccd1d7305509",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#btn_purchase_gift > span",
-      "targets": [
-        ["css=#btn_purchase_gift > span", "css:finder"],
-        ["xpath=//a[@id='btn_purchase_gift']/span", "xpath:idRelative"],
-        ["xpath=//div[3]/div[2]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Купить в подарок')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "68172677-3c73-478e-b38d-8126fa422cca",
       "comment": "",
       "command": "click",
