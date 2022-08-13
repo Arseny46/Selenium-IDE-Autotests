@@ -1,0 +1,283 @@
+{
+  "id": "0c5d0174-9f9c-4200-93c8-af4b85ea6885",
+  "version": "2.0",
+  "name": "steampowered",
+  "url": "https://store.steampowered.com",
+  "tests": [{
+    "id": "7bfadc82-865a-4879-8658-32fb6247354f",
+    "name": "Authorization",
+    "commands": [{
+      "id": "e930792c-44c5-469e-9553-0550d8cc36eb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa803cc2-7e18-4b19-b8e0-c6cb4d20b30b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d581e31b-5619-461a-aa0b-5d03bb900a45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=войти",
+      "targets": [
+        ["linkText=войти", "linkText"],
+        ["css=.global_action_link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'войти')]", "xpath:link"],
+        ["xpath=//div[@id='global_action_menu']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_4__global-header')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dcc4ab-e0e8-4270-8048-4af9b118277f",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_username",
+      "targets": [
+        ["id=input_username", "id"],
+        ["name=username", "name"],
+        ["css=#input_username", "css:finder"],
+        ["xpath=//input[@id='input_username']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testomaton"
+    }, {
+      "id": "3f2ca8ee-948c-4b5a-a64c-5ae4fc3757b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_password",
+      "targets": [
+        ["id=input_password", "id"],
+        ["name=password", "name"],
+        ["css=#input_password", "css:finder"],
+        ["xpath=//input[@id='input_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Testpassword22"
+    }, {
+      "id": "57a5603e-7522-43f7-b3fc-b2dd7fdb6c70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_blue_steamui > span",
+      "targets": [
+        ["css=.btn_blue_steamui > span", "css:finder"],
+        ["xpath=//div[@id='login_btn_signin']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "681f2f09-0348-44e3-a71f-226ec07ab383",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_pulldown",
+      "targets": [
+        ["id=account_pulldown", "id"],
+        ["css=#account_pulldown", "css:finder"],
+        ["xpath=//span[@id='account_pulldown']", "xpath:attributes"],
+        ["xpath=//div[@id='global_action_menu']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'testimation2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7558ce94-efef-4919-b5c0-e3b005c8c983",
+      "comment": "",
+      "command": "click",
+      "target": "css=.online",
+      "targets": [
+        ["css=.online", "css:finder"],
+        ["xpath=//div[@id='account_dropdown']/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'testomaton')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "792723c7-edee-4e6a-a6b4-20101a4f15f5",
+    "name": "Add to cart",
+    "commands": [{
+      "id": "cadf749f-df07-45f1-a415-59a94e40792c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18bef9d0-4929-443e-b68a-8f22abe7ae86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=войти",
+      "targets": [
+        ["linkText=войти", "linkText"],
+        ["css=.global_action_link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'войти')]", "xpath:link"],
+        ["xpath=//div[@id='global_action_menu']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://store.steampowered.com/login/?redir=&redir_ssl=1&snr=1_4_4__global-header')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87bb2c1-65ed-4c5e-aead-42a34a4ab29c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_username",
+      "targets": [
+        ["id=input_username", "id"],
+        ["name=username", "name"],
+        ["css=#input_username", "css:finder"],
+        ["xpath=//input[@id='input_username']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testomaton"
+    }, {
+      "id": "ad8fd202-b1ff-44f4-8d5e-4f5e95afd5c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_password",
+      "targets": [
+        ["id=input_password", "id"],
+        ["name=password", "name"],
+        ["css=#input_password", "css:finder"],
+        ["xpath=//input[@id='input_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Testpassword22"
+    }, {
+      "id": "5a76475d-7506-4919-bfbc-47a352386d7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_blue_steamui > span",
+      "targets": [
+        ["css=.btn_blue_steamui > span", "css:finder"],
+        ["xpath=//div[@id='login_btn_signin']/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "411ac7db-fdb9-4c6b-b9e8-63ef5e2489dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee0cf1f5-86ec-47ab-be9e-6c340edb3f05",
+      "comment": "",
+      "command": "type",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "portal 2"
+    }, {
+      "id": "c4819469-1c65-4793-9c3c-293e478d54d9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=store_nav_search_term",
+      "targets": [
+        ["id=store_nav_search_term", "id"],
+        ["name=term", "name"],
+        ["css=#store_nav_search_term", "css:finder"],
+        ["xpath=//input[@id='store_nav_search_term']", "xpath:attributes"],
+        ["xpath=//form[@id='searchform']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "18bda052-494e-4627-be20-5520ca1804cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search_result_row:nth-child(1) .search_name > div",
+      "targets": [
+        ["css=.search_result_row:nth-child(1) .search_name > div", "css:finder"],
+        ["xpath=//div[@id='search_resultsRows']/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d08f45e-0483-4e1b-820e-30f10f0edc1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn_add_to_cart_8187 > span",
+      "targets": [
+        ["css=#btn_add_to_cart_8187 > span", "css:finder"],
+        ["xpath=//a[@id='btn_add_to_cart_8187']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'В корзину')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68172677-3c73-478e-b38d-8126fa422cca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Удалить",
+      "targets": [
+        ["linkText=Удалить", "linkText"],
+        ["css=.remove_link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Удалить')]", "xpath:link"],
+        ["xpath=//div[@id='cart_row_4613394423688867648']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:removeFromCart('4613394423688867648')\")]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Удалить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a54b46-4b8d-4d61-a116-a92ad9d40b68",
+      "comment": "",
+      "command": "click",
+      "target": "id=account_pulldown",
+      "targets": [
+        ["id=account_pulldown", "id"],
+        ["css=#account_pulldown", "css:finder"],
+        ["xpath=//span[@id='account_pulldown']", "xpath:attributes"],
+        ["xpath=//div[@id='global_action_menu']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'testimation2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2713bd8-ff93-415d-9e6c-e7fab56ccc31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.online",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8819b75b-5a9c-4047-b119-a74025f54ea3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://store.steampowered.com/"],
+  "plugins": []
+}
